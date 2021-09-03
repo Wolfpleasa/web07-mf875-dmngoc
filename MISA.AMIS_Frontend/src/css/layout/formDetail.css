@@ -1,0 +1,195 @@
+@font-face {
+    font-family: notosans-bold;
+    src: url("../../assets/font/notosans-bold.3ede5aff.woff2");
+}
+
+#formDetail {
+    position: absolute;
+    width: 900px;
+    height: auto;
+    top: calc((100% - 578px) / 2);
+    left: calc((100% - 900px) / 2);
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px 1px #ccc;
+    z-index: 2;
+}
+
+
+/* Phần đầu formDetail */
+
+.head {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+#formDetail .head .head-title {
+    width: 804px;
+    height: 24px;
+    margin: 24px 0 0 24px;
+    display: flex;
+    align-items: center;
+}
+
+#formDetail .head-title .head-text {
+    width: auto;
+    font-size: 24px;
+    font-family: notosans-bold;
+    font-weight: bold;
+}
+
+#formDetail .head-title .checkbox {
+    margin: 0 10px;
+}
+
+#formDetail .head .formDetail-close {
+    width: 54px;
+    height: 48px;
+    padding: 12px;
+    display: flex;
+}
+
+#formDetail .head .head-help {
+    width: 24px;
+    height: 24px;
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -89px -145px;
+    cursor: pointer;
+}
+
+#formDetail .head .head-close {
+    width: 24px;
+    height: 24px;
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -147px -145px;
+    cursor: pointer;
+}
+
+.head .head-close:hover {
+    background-color: #e9ebee;
+}
+
+
+/* Phần main của formDetail */
+
+.main {
+    width: calc(100% - 64px);
+    margin: 0 32px;
+    height: (100% - 132px);
+    border-bottom: 1px solid #babec5;
+    padding-bottom: 12px;
+}
+
+.main .row {
+    display: flex;
+    padding-bottom: 12px;
+}
+
+.main .row .code {
+    width: 40%;
+    padding-right: 6px;
+}
+
+.main .row .name {
+    width: 60%;
+}
+
+.main .row .birth {
+    width: 40%;
+    padding-right: 16px;
+    position: relative;
+}
+
+.main .row .gender {
+    width: 60%;
+}
+
+.main .row .identityNumber {
+    width: 60%;
+    padding-right: 6px;
+}
+
+.main .row .identityDate {
+    width: 40%;
+}
+
+.main .row .phoneNumber {
+    width: 33%;
+    padding-right: 6px;
+}
+
+.main .row .email {
+    width: 33%;
+}
+
+.main .row .bankAccount {
+    width: 33%;
+    padding-right: 6px;
+}
+
+.main .row .bankName {
+    width: 33%;
+    padding-right: 6px;
+}
+
+.main .row .bankBranch {
+    width: 33%;
+}
+
+.day::placeholder {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.day-icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -128px -312px;
+    top: 28px;
+    right: 32px;
+    z-index: 10;
+}
+
+
+/* phần footer của formDetail */
+
+.foot {
+    width: calc(100% - 16px);
+    height: 72px;
+    margin: 0 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.foot .save-area {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#formDetail .foot .button.save {
+    margin: 0 24px 0 10px;
+}
+
+#formDetail .foot .button.save:hover {
+    background-color: #2FBE8E;
+}
+
+.foot .button.save:active {
+    background-color: #01B075;
+    outline: none;
+}
+
+.foot .button.cancel {
+    margin-left: 24px;
+    color: #000;
+    background-color: #E5E5E5;
+}
+
+.foot .button.cancel:hover {
+    background-color: #bbbbbb;
+}

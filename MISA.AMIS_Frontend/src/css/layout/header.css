@@ -1,0 +1,110 @@
+@font-face {
+    font-family: notosans-bold;
+    src: url("../../assets/font/notosans-bold.3ede5aff.woff2");
+}
+
+.header {
+    height: 48px;
+    width: 100%;
+    display: flex;
+}
+
+.header .header-left {
+    padding: 0 24px;
+    height: 48px;
+    width: 130px;
+    align-items: center;
+    display: flex;
+    background-color: #393a3d;
+}
+
+.header .header-left .toggle {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -424px -86px;
+    cursor: pointer;
+}
+
+.header .header-left .logo {
+    width: calc(100% - 34px);
+    height: 32px;
+    background-image: url("../../assets/Logo_Module_TiengViet_White.66947422.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+}
+
+.header .header-right {
+    left: 178px;
+    height: 100%;
+    width: calc(100% - 178px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-right .company-selector {
+    height: 44px;
+    width: 498px;
+    display: flex;
+    align-items: center;
+}
+
+.header-right .company-selector .three-stripes {
+    height: 24px;
+    width: 24px;
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -843px -30px;
+    margin: 0 10px;
+}
+
+.header-right .company-selector .company-name {
+    width: 430px;
+    font-size: 14px;
+    font-family: notosans-bold;
+    font-weight: bold;
+}
+
+.header-right .company-selector .arrow {
+    height: 14px;
+    width: 14px;
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -80px -360px;
+    transform: rotate(90deg);
+}
+
+.header-right .user {
+    height: 100%;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.header-right .user .bell {
+    height: 24px;
+    width: 24px;
+    justify-content: center;
+    margin: 12px 0px;
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -788px -30px;
+}
+
+.header-right .user .user-avatar {
+    width: 32px;
+    height: 32px;
+    margin: 8px 16px 8px 16px;
+    border-radius: 50%;
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -352px -894px;
+}
+
+.header-right .user .user-fullname {
+    width: auto;
+    line-height: 48px;
+    font-size: 13px;
+    font-family: notosans-bold;
+}
+
+.header-right .user .user-function {
+    height: 14px;
+    width: 14px;
+    margin: 17px 16px 17px 16px;
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -1076px -32px;
+}

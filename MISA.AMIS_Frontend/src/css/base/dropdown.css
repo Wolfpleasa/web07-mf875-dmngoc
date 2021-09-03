@@ -1,0 +1,71 @@
+.select {
+    display: flex;
+    width: 100%;
+    min-height: 32px;
+    border: 1px solid #babec5;
+    border-radius: 2px;
+    background-color: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+}
+
+.select .inp {
+    border: none;
+    outline: none;
+    line-height: 32px;
+    width: calc(100% - 32px);
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.select .arrow {
+    margin: 8px;
+    width: 16px;
+    height: 16px;
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -560px -359px;
+    cursor: pointer;
+}
+
+.select .arrow.rot-180 {
+    transform: rotate(180deg);
+    transition: transform 1s;
+}
+
+.select .arrow.rot-0 {
+    transform: rotate(0deg);
+    transition: transform 1s;
+}
+
+.select .select-arrow:hover {
+    background-color: #e0e0e0;
+}
+
+.dropdown {
+    width: 200px;
+    box-shadow: 0 0 5px 1px #e5e5e5;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    box-sizing: border-box;
+    z-index: 2;
+    padding: 4px 0;
+    height: auto;
+    border-radius: 2px;
+    bottom: 35px;
+}
+
+.dropdown .dropdown-item {
+    width: 100%;
+    line-height: 32px;
+    height: 32px;
+    width: calc(100% - 16px);
+    padding-left: 16px;
+    cursor: pointer;
+}
+
+.dropdown .dropdown-item:hover {
+    background-color: #E9EBEE;
+    color: #2ca01c;
+}

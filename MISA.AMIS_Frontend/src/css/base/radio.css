@@ -1,0 +1,28 @@
+.radio {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid #babec5;
+    box-sizing: border-box;
+}
+
+.radio-item {
+    width: auto;
+    padding-right: 20px;
+    margin-top: 10px;
+    display: flex;
+    cursor: pointer;
+    outline: 0;
+}
+
+.radio-item:focus {
+    border: 1px solid #2CA01C;
+}
+
+.radio-item.selected .radio {
+    background-image: url("../../assets/icon/radio-selected.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    border: 0px;
+}

@@ -1,0 +1,84 @@
+@import url("../../css/base/button.css");
+@font-face {
+    font-family: notosans-bold;
+    src: url("../../assets/font/notosans-bold.3ede5aff.woff2");
+}
+
+.content {
+    position: absolute;
+    top: 48px;
+    left: 178px;
+    display: block;
+    width: calc(100% - 178px);
+    height: calc(100vh - 48px);
+    background-color: #e9ebee;
+}
+
+.content .content-header {
+    position: relative;
+    padding: 24px 0 16px 0;
+    height: 36px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .content-header .title {
+    font-size: 24px;
+    width: auto;
+    height: 36px;
+    font-weight: bold;
+    font-family: notosans-bold;
+    margin-left: 24px;
+}
+
+.content-header .button {
+    height: 36px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.filter {
+    height: 32px;
+    width: calc(100% - 48px);
+    margin: 0 24px;
+    display: flex;
+    background-color: #fff;
+    padding: 16px 0 10px 0;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+
+.filter .export {
+    width: 24px;
+    height: 24px;
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -704px -200px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.filter .export:hover {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -704px -256px;
+}
+
+.filter .refresh {
+    width: 24px;
+    height: 24px;
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -423px -201px;
+    margin-right: 16px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.filter .refresh:hover {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -1095px -88px;
+}
+
+.content #gridEntity {
+    height: calc(100% - 184px);
+    margin: 0px 24px 0px 24px;
+    padding: 0 24px 0 24px;
+    overflow: scroll;
+    max-width: calc(100% - 96px);
+    background-color: #fff;
+}

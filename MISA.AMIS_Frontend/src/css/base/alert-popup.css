@@ -1,0 +1,68 @@
+.alert {
+    position: absolute;
+    height: 182px;
+    width: 400px;
+    top: calc((100% - 282px) / 2);
+    left: calc((100% - 400px) / 2);
+    background-color: #fff;
+    box-shadow: 0 3px 6px 0 rgb(0, 0, 0, 0.16);
+    border-radius: 2px;
+    z-index: 10;
+}
+
+.alert .alert-message {
+    height: 54px;
+    margin: 32px 24px 20px 24px;
+    display: flex;
+    align-items: center;
+}
+
+.alert .alert-icon {
+    height: 36px;
+    width: 36px;
+    margin: 0 20px 0 0px;
+}
+
+.alert .alert-close {
+    width: calc(100% - 48px);
+    height: 72px;
+    display: flex;
+    margin: 0 24px;
+    align-items: center;
+    margin-bottom: 12px;
+    border-top: 1px solid #babec5;
+}
+
+.alert .alert-text {
+    width: calc(100% - 105px);
+}
+
+.alert.message-red .button,
+.alert.message-green .button {
+    margin-left: 140px;
+}
+
+.alert.message-yellow .alert-close {
+    flex-direction: row-reverse;
+}
+
+.alert.message-yellow .button {
+    right: 0;
+}
+
+.alert.message-red .alert-icon {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -752px -462px;
+}
+
+.alert.message-yellow .alert-icon {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -598px -463px;
+}
+
+.alert.message-green .alert-icon {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -990px -462px;
+}
+
+
+/* .alert.message-blue .alert-icon {
+    background-image: url("../../assets/icon/alert-blue.png");
+} */

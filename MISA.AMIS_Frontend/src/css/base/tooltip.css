@@ -1,0 +1,22 @@
+.input-zone {
+    position: relative;
+}
+
+.tooltip {
+    height: auto;
+    position: absolute;
+    width: calc(100% - 68px);
+    left: 28px;
+    right: 28px;
+    top: 40px;
+    z-index: 10;
+    background-color: #333;
+    line-height: 17px;
+    border-radius: 2px;
+    padding: 6px 6px;
+}
+
+.tooltip .tooltip-text {
+    color: #fff;
+    text-align: center;
+}

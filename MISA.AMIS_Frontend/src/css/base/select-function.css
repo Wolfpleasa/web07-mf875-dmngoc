@@ -1,0 +1,51 @@
+@font-face {
+    font-family: notosans-bold;
+    src: url("../../assets/font/notosans-bold.3ede5aff.woff2");
+}
+
+.functionUpdate {
+    color: #0075c0;
+    margin-left: 20px;
+    width: auto;
+    font-family: notosans-bold;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1820px) {
+    .functionUpdate {
+        margin-left: 40px;
+    }
+}
+
+.selectFunction {
+    margin-left: 10px;
+    width: 26px;
+    height: 16px;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+.selectFunction.selected {
+    border: 1px solid #0075c0;
+    box-sizing: border-box;
+}
+
+.selectFunction .arrow {
+    margin-left: 4px;
+    z-index: 1;
+    width: 16px;
+    height: 16px;
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -896px -360px;
+    cursor: pointer;
+}
+
+.selectFunction .arrow.rot-180 {
+    transform: rotate(180deg);
+    transition: transform 1s;
+}
+
+.selectFunction .arrow.rot-0 {
+    transform: rotate(0deg);
+    transition: transform 1s;
+}

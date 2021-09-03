@@ -1,0 +1,127 @@
+.menu {
+    height: calc(100vh - 62px);
+    width: 178px;
+    background-color: #393a3d;
+    padding-top: 14px;
+}
+
+@media only screen and (max-height: 700px) {
+    .menu {
+        overflow-y: scroll;
+    }
+}
+
+.menu .menu-item {
+    height: 42px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    padding: 0 14px 0 8px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #393a3d;
+    border-left: 6px solid #393a3d;
+}
+
+.menu .menu-item:hover {
+    background-color: #5d5d61;
+    border-color: #5d5d61;
+}
+
+.menu .menu-item.selected {
+    background-color: #5d5d61;
+    border-color: #2ca01c;
+    font-weight: bold;
+}
+
+.menu .menu-item.selected:hover {
+    background-color: #5d5d61;
+    border-color: #2ca01c;
+}
+
+.menu .menu-item-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+}
+
+
+/* .menu .menu-item.selected {
+    background-color: #019160 !important;
+    color: #fff;
+} */
+
+
+/* .menu .menu-item:nth-last-child(4) {
+    background-color: #019160 !important;
+    color: #fff !important;
+} */
+
+.menu .menu-item-icon.dashboard {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -30px -1628px;
+}
+
+.menu .menu-item-icon.cash {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -73px -1628px;
+}
+
+.menu .menu-item-icon.bank {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -117px -1628px;
+}
+
+.menu .menu-item-icon.buy {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -161px -1628px;
+}
+
+.menu .menu-item-icon.sale {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -204px -1628px;
+}
+
+.menu .menu-item-icon.invoice {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -249px -1628px;
+}
+
+.menu .menu-item-icon.stock {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -291px -1628px;
+}
+
+.menu .menu-item-icon.tools {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -336px -1628px;
+}
+
+.menu .menu-item-icon.fixed-assets {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -378px -1630px;
+}
+
+.menu .menu-item-icon.tax {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -423px -1630px;
+}
+
+.menu .menu-item-icon.price {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -467px -1628px;
+}
+
+.menu .menu-item-icon.general {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -510px -1628px;
+}
+
+.menu .menu-item-icon.budget {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -378px -1659px;
+}
+
+.menu .menu-item-icon.report {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -547px -1628px;
+}
+
+.menu .menu-item-icon.finance {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -204px -1664px;
+}
+
+.menu-item .menu-item-text {
+    height: 20px;
+    width: calc(100% - 34px);
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+}

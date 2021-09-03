@@ -1,0 +1,45 @@
+.toast {
+    position: absolute;
+    height: 72px;
+    width: 400px;
+    top: 20px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 3px 6px 0 rgb(0, 0, 0, 0.16);
+    border-radius: 2px;
+    z-index: 10;
+}
+
+.toast .toast-message {
+    height: 100%;
+    display: flex;
+    margin-left: 24px;
+    align-items: center;
+}
+
+.toast .toast-icon {
+    height: 36px;
+    width: 36px;
+    margin: 0 20px 0 0px;
+}
+
+.toast .toast-text {
+    width: calc(100% - 105px);
+}
+
+.toast.message-red .toast-icon {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -752px -462px;
+}
+
+.toast.message-yellow .toast-icon {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -598px -463px;
+}
+
+.toast.message-green .toast-icon {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -990px -462px;
+}
+
+
+/* .toast.message-blue .toast-icon {
+    background-image: url("../../assets/icon/toast-blue.png");
+} */

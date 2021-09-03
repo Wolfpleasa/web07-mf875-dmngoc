@@ -1,0 +1,33 @@
+.field-input-icon {
+    height: 32px;
+    width: 261px;
+    border: 1px solid #babec5;
+    border-radius: 2px;
+    box-sizing: border-box;
+    outline: none;
+    padding-left: 12px;
+    padding-right: 24px;
+}
+
+.field-input-icon:hover {
+    outline: 1px solid #e2e2e2;
+}
+
+.field-input-icon:focus {
+    border-Color: #2CA01C;
+}
+
+input::placeholder {
+    font-size: 11px;
+    font-style: italic;
+    color: #babec5;
+}
+
+.glass {
+    position: absolute;
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -992px -360px;
+    width: 16px;
+    height: 16px;
+    margin-top: 8px;
+    margin-left: 235px;
+}
